@@ -56,7 +56,7 @@
     new THREE.TextureLoader().load(CLOUDS_IMG_URL, cloudsTexture => {
       const clouds = new THREE.Mesh(
         new THREE.SphereGeometry(world.getGlobeRadius() * (1 + CLOUDS_ALT), 75, 75),
-        new THREE.MeshPhongMaterial({ map: cloudsTexture, transparent: true })
+        new THREE.MeshPhongMaterial({ map: cloudsTexture, transparent: true, opacity: 0.5 }) // Make clouds more transparent
       );
       world.scene().add(clouds);
 
@@ -68,7 +68,7 @@
 
     // Create satellite representation
     const satGeometry = new THREE.OctahedronGeometry(SAT_SIZE * world.getGlobeRadius() / EARTH_RADIUS_KM / 2, 0);
-    const satMaterial = new THREE.MeshLambertMaterial({ color: '#90EE90', transparent: true, opacity: 0.7 });
+    const satMaterial = new THREE.MeshLambertMaterial({ color: '#FFC000', transparent: true, opacity: 0.7 });
     world.objectThreeObject(() => new THREE.Mesh(satGeometry, satMaterial));
 
     // Fetch and update satellite data
@@ -113,10 +113,11 @@
         world.labelsData(places.features)
           .labelLat(d => d.properties.latitude)
           .labelLng(d => d.properties.longitude)
+          .labelAltitude(() => 0.005) // Increase altitude of labels
           .labelText(d => d.properties.name)
           .labelSize(d => Math.sqrt(d.properties.pop_max) * 4e-4)
           .labelDotRadius(d => Math.sqrt(d.properties.pop_max) * 4e-4)
-          .labelColor(() => 'rgba(255, 255, 247, 0.3)')
+          .labelColor(() => 'rgba(255, 255, 254, 0.5)') // Enhance visibility
           .labelResolution(2);
       });
   </script>
