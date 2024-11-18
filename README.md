@@ -6,7 +6,7 @@ Globe.GL
 [![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 
 <p align="center">
-   <a href="//leonival.github.io/globe.gl/example/satellite-cities/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/satellite-cities/preview.png"></a>
+   <a href="//leonival.github.io/globe.gl/example/satellite-cities/"><img width="48%" src="https://leonival.github.io/globe.gl/example/satellite-cities/preview.png"></a>
 </p>
 
 A web component to represent data visualization layers on a 3-dimensional globe in a spherical projection.
