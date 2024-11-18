@@ -6,16 +6,7 @@ Globe.GL
 [![NPM Downloads][npm-downloads-img]][npm-downloads-url]
 
 <p align="center">
-   <a href="//vasturiano.github.io/globe.gl/example/world-population/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/world-population/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/airline-routes/us-international-outbound.html"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/airline-routes/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/countries-population/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/countries-population/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/submarine-cables/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/submarine-cables/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/hexed-polygons/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/hexed-polygons/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/world-cities/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/world-cities/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/population-heatmap/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/population-heatmap/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/clouds/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/clouds/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/satellites/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/satellites/preview.png"></a>
-   <a href="//vasturiano.github.io/globe.gl/example/moon-landing-sites/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/moon-landing-sites/preview.png"></a>
+   <a href="//leonival.github.io/globe.gl/example/satellite-cities/"><img width="48%" src="https://vasturiano.github.io/globe.gl/example/satellite-cities/preview.png"></a>
 </p>
 
 A web component to represent data visualization layers on a 3-dimensional globe in a spherical projection.
@@ -27,34 +18,7 @@ And check out the [React bindings](https://github.com/vasturiano/react-globe.gl)
 
 ## Examples
 
-* [Basic](https://vasturiano.github.io/globe.gl/example/basic/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/basic/index.html))
-* [Arc Links](https://vasturiano.github.io/globe.gl/example/random-arcs/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/random-arcs/index.html))
-* [Highlight links](https://vasturiano.github.io/globe.gl/example/airline-routes/highlight-links.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/airline-routes/highlight-links.html))
-* [Choropleth](https://vasturiano.github.io/globe.gl/example/choropleth-countries/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/choropleth-countries/index.html))
-* [Elevated Polygons](https://vasturiano.github.io/globe.gl/example/countries-population/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/countries-population/index.html))
-* [Hollow Globe](https://vasturiano.github.io/globe.gl/example/hollow-globe/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/hollow-globe/index.html))
-* [Path Lines](https://vasturiano.github.io/globe.gl/example/random-paths/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/random-paths/index.html))
-* [Heatmap](https://vasturiano.github.io/globe.gl/example/heatmap/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/heatmap/index.html))
-* [Map Labels](https://vasturiano.github.io/globe.gl/example/world-cities/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/world-cities/index.html))
-* [HTML Markers](https://vasturiano.github.io/globe.gl/example/html-markers/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/html-markers/index.html))
-* [Hexed Country Polygons](https://vasturiano.github.io/globe.gl/example/hexed-polygons/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/hexed-polygons/index.html))
-* [Tiles](https://vasturiano.github.io/globe.gl/example/tiles/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/tiles/index.html))
-* [Ripple Rings](https://vasturiano.github.io/globe.gl/example/random-rings/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/random-rings/index.html))
-* [Emit Arcs on Click](https://vasturiano.github.io/globe.gl/example/emit-arcs-on-click/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/emit-arcs-on-click/index.html))
-* [Clouds](https://vasturiano.github.io/globe.gl/example/clouds/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/clouds/index.html))
-* [Solar Terminator](https://vasturiano.github.io/globe.gl/example/solar-terminator/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/solar-terminator/index.html))
-* [Custom Globe Styling](https://vasturiano.github.io/globe.gl/example/custom-globe-styling/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/custom-globe-styling/index.html))
-* [Custom Layer](https://vasturiano.github.io/globe.gl/example/custom-layer/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/custom-layer/index.html))
-* [World Population](https://vasturiano.github.io/globe.gl/example/world-population/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/world-population/index.html))
-* [Population Heatmap](https://vasturiano.github.io/globe.gl/example/population-heatmap/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/population-heatmap/index.html))
-* [Recent Earthquakes](https://vasturiano.github.io/globe.gl/example/earthquakes/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/earthquakes/index.html))
-* [World Volcanoes](https://vasturiano.github.io/globe.gl/example/volcanoes/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/volcanoes/index.html))
-* [Volcanoes Heatmap](https://vasturiano.github.io/globe.gl/example/volcanoes-heatmap/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/volcanoes-heatmap/index.html))
-* [US outbound international airline routes](https://vasturiano.github.io/globe.gl/example/airline-routes/us-international-outbound.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/airline-routes/us-international-outbound.html))
-* [Earth Shield](https://vasturiano.github.io/globe.gl/example/earth-shield/) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/earth-shield/index.html))
-* [Satellites](https://vasturiano.github.io/globe.gl/example/satellites/index.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/satellites/index.html))
-* [Submarine Cables](https://vasturiano.github.io/globe.gl/example/submarine-cables/index.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/submarine-cables/index.html))
-* [Moon Landing Sites](https://vasturiano.github.io/globe.gl/example/moon-landing-sites/index.html) ([source](https://github.com/vasturiano/globe.gl/blob/master/example/moon-landing-sites/index.html))
+* [Satellites-cities](https://leonival.github.io/globe.gl/example/satellite-cities/) ([source](https://leonival.github.io/globe.gl/example/satellite-cities/))
 
 ## Quick start
 
@@ -448,10 +412,6 @@ Globe({ configOptions })(<domElement>)
 | <b>getScreenCoords</b>(<i>lat</i>, <i>lng</i> [,<i>altitude</i>]) | Utility method to translate spherical coordinates to the viewport domain. Given a pair of latitude/longitude coordinates and optionally altitude (in terms of globe radius units), returns the current equivalent `{x, y}` in viewport coordinates. |
 | <b>toGeoCoords</b>({ <i>x</i>, <i>y</i>, <i>z</i> }) | Utility method to translate cartesian coordinates to the geographic domain. Given a set of 3D cartesian coordinates `{x, y, z}`, returns the equivalent `{lat, lng, altitude}` spherical coordinates. Altitude is defined in terms of globe radius units. |
 | <b>toGlobeCoords</b>(<i>x</i>, <i>y</i>) | Utility method to translate viewport coordinates to the globe surface coordinates directly under the specified viewport pixel. Returns the globe coordinates in the format `{ lat, lng }`, or `null` if the globe does not currently intersect with that viewport location. |
-
-## Giving Back
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=L398E7PKP47E8&currency_code=USD&source=url) If this project has helped you and you'd like to contribute back, you can always [buy me a ☕](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=L398E7PKP47E8&currency_code=USD&source=url)!
 
 [npm-img]: https://img.shields.io/npm/v/globe.gl
 [npm-url]: https://npmjs.org/package/globe.gl
