@@ -1,4 +1,4 @@
-Globe.GL
+Satellite Cities
 ========
 
 [![NPM package][npm-img]][npm-url]
